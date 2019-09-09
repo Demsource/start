@@ -9,3 +9,12 @@ body {
 .lorem1 {
 	margin: 30px auto auto 30px;	
 }
+ul.geocount {
+	margin: 30px auto auto 30px;		
+}
+ul.geocount li {
+	margin-bottom: 10px;
+}
+ul.geocount li a {
+	font-family: ninoBold;
+}
