@@ -1,6 +1,37 @@
 body {
 	background-color: orange;
 }
+header {
+	background-color: rgba(0,0,0, 0.8);
+	display: flex;
+	justify-content: center;
+}
+header li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header .active-page {
+	border: 3px solid white;
+	border-radius: 25px;
+}
+header .active-page a {
+	color: orange !important;
+}
+header .nav-ul {
+	display: flex;
+}
+header .nav-ul li {
+	margin: 30px;
+	/*padding-right: 30px;*/
+}
+header .nav-ul li a {
+	color: white;
+	font-family: ninoBold;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 15px; 
+}
 .title {
 	color: white;
 	font-size: 30px;
@@ -8,13 +39,4 @@ body {
 }
 .lorem1 {
 	margin: 30px auto auto 30px;	
-}
-ul.geocount {
-	margin: 30px auto auto 30px;		
-}
-ul.geocount li {
-	margin-bottom: 10px;
-}
-ul.geocount li a {
-	font-family: ninoBold;
 }
